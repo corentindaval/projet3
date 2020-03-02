@@ -16,4 +16,46 @@ h1
 	width:100%;
 	text-align:center;
 	margin-top:0;
+	margin-bottom:0;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+
+footer
+{
+	background-color:#00838f;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+}
+
+
+
+#recherche
+{
+width:100%;
+background-color:#e8eaf6;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+#ml
+{
+	color:#FFC107;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:10px;
+margin-right:39%;
+}
+
+
+#cn
+{
+	color:#FFC107;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:39%;
+margin-right:10px;
 }
