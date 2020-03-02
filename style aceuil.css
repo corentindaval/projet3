@@ -1,0 +1,19 @@
+body
+{
+	margin:0;
+}
+
+header
+{
+	margin-top:0;
+}
+
+h1
+{
+	color:#FFC107;
+	background-color:#00838f;
+	height:100%;
+	width:100%;
+	text-align:center;
+	margin-top:0;
+}
