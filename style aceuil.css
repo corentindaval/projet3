@@ -41,6 +41,12 @@ padding-top:5px;
 padding-bottom:5px;
 }
 
+#boutton_recherche
+{
+font-family:'Font Awesome 5 Pro';
+		font-weight: 900;
+}
+
 #zone_boutton
 {
 	display:flex;
