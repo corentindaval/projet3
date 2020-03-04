@@ -1,0 +1,169 @@
+body
+{
+	margin:0;
+}
+
+header
+{
+	margin-top:0;
+}
+
+h1
+{
+	color:#FFC107;
+	background-color:#43a047;
+	height:100%;
+	width:100%;
+	text-align:center;
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+
+
+
+
+
+#recherche
+{
+width:100%;
+background-color:#e8eaf6;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+#boutton_recherche
+{
+font-family:'Font Awesome 5 Pro';
+		font-weight: 900;
+}
+
+section
+{
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	/*margin-left:20%;
+	margin-right:20%;*/
+	margin:0 auto;
+	width:100%;
+}
+
+article
+{
+	height:300px;
+	width:80%;
+	margin:0 auto;
+	border:1px solid red;
+}
+
+
+
+footer
+{
+	background-color:#00838f;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+}
+
+/*
+#zone_boutton
+{
+	display:flex;
+	width:100%;
+}
+
+#bouton_menu1
+{
+margin-top:10%;
+margin-bottom:10%;
+margin-left:20%;
+margin-right:30%;
+width:55%;
+height:80%;
+border-style:solid;
+border-width:2px;
+border-color:#e8eaf6;
+}
+
+#bouton_menu2
+{
+	margin-top:10%;
+	margin-bottom:10%;
+	margin-left:20%;
+	margin-right:30%;
+	width:55%;
+    height:80%;
+    border-style:solid;
+    border-width:2px;
+    border-color:#e8eaf6;
+}
+
+#bouton_menu3
+{
+margin-top:10%;
+margin-bottom:10%;
+margin-left:20%;
+margin-right:30%;
+width:55%;
+height:80%;
+border-style:solid;
+border-width:2px;
+border-color:#e8eaf6;
+
+}
+
+#bouton_menu4
+{
+	margin-top:10%;
+	margin-bottom:10%;
+	margin-left:20%;
+	margin-right:30%;
+	width:55%;
+    height:80%;
+	border-style:solid;
+    border-width:2px;
+    border-color:#e8eaf6;
+}
+
+#bouton_proche
+{
+
+	border-radius:25%;
+	margin-left:38%;
+	margin-bottom:10px;
+	color:#FFC107;
+	background-color:#00838f;
+	width:20%;
+	font-size:20px;
+}
+*/
+#ml
+{
+	color:#FFC107;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:10px;
+margin-right:39%;
+}
+
+
+#cn
+{
+	color:#FFC107;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:39%;
+margin-right:10px;
+}
+
+
+@media all and (max-width: 768px) /*mise en place du responsive*/
+{
+
+
+	
+}
