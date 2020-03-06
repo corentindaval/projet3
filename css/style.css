@@ -21,10 +21,24 @@ h1
 	padding-bottom:20px;
 }
 
+h2
+{
+	text-align:center;
+	margin-top:45%;
+}
 
+h3
+{
+	text-align:center;
+}
 
-
-
+i
+{
+	margin-left:45%;
+	margin-top:40%;
+	color:red;
+	font-size:150%;
+}
 
 
 #recherche
@@ -51,19 +65,55 @@ section
 	width:100%;
 }
 
+
 article
 {
-	height:300px;
-	width:80%;
-	margin:0 auto;
-	border:1px solid red;
+	height:350px;
+	width:40%;
+	margin: auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	border:1px solid ;
+	border-color:#e8eaf6;
+	display:flex;
+	flex-direction:column;
 }
 
+a
+{
+	height:100%;
+	width:100%;
+	text-decoration:none;
+	color:black;
+}
 
+#b_note
+{
+	background-color:#ffcdd2;
+}
 
+#b_chic
+{
+	background-color:#ffebee;
+}
+
+#b_papille
+{
+	background-color:#eeeeee;
+}
+
+#b_palette
+{
+	background-color:#fafafa;
+}
+
+#m_note
+{
+	margin-top:0;
+}
 footer
 {
-	background-color:#00838f;
+	background-color:#43a047;
 	width:100%;
 	display:flex;
 	flex-direction:row;
