@@ -1,6 +1,8 @@
 body
 {
 	margin:0;
+	font-family:"New Century",cursive;
+	font-style: italic;
 }
 
 header
@@ -29,6 +31,7 @@ a
 
 h2
 {
+	font-weight: bold;
 	text-align:center;
 }
 
@@ -42,9 +45,23 @@ h4
 	
 }
 
+h4::before
+{
+font-family:'Font Awesome 5 Pro';
+content:"\f7a4";
+margin-right:5%;
+}
+
+h4::after
+{
+	font-family:'Font Awesome 5 Pro';
+	content:"\f7a4";
+	margin-left:5%;
+}
+
 h5
 {
-	
+
 }
 
 h5::before
@@ -52,6 +69,7 @@ h5::before
 		font-family:'Font Awesome 5 Pro';
 		content: "\f001";
 		font-weight: 900;
+		margin-right:10px;
 }
 
 footer
@@ -82,7 +100,7 @@ font-family:'Font Awesome 5 Pro';
 {
 	height:50%;
 	width:50%;
-	background-color:#ffcdd2;
+	background-color:#FFDDD2;
 	text-align:center;
 	margin-left:25%;
 }
