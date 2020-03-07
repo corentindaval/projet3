@@ -10,8 +10,8 @@ header
 
 h1
 {
-	color:#FFC107;
-	background-color:#00838f;
+    color:#FFC107;
+	background-color:#43a047;
 	height:100%;
 	width:100%;
 	text-align:center;
@@ -21,9 +21,15 @@ h1
 	padding-bottom:20px;
 }
 
+a
+{
+	text-decoration:none;
+	color:#FFC107;
+}
+
 h2
 {
-	
+	text-align:center;
 }
 
 h3
@@ -50,7 +56,7 @@ h5::before
 
 footer
 {
-	background-color:#00838f;
+	background-color:#43a047;
 	width:100%;
 	display:flex;
 	flex-direction:row;
@@ -71,6 +77,15 @@ font-family:'Font Awesome 5 Pro';
 		font-weight: 900;
 }
 
+
+#zone_menu
+{
+	height:50%;
+	width:50%;
+	background-color:#ffcdd2;
+	text-align:center;
+	margin-left:25%;
+}
 
 #ml
 {
@@ -103,11 +118,14 @@ margin-right:10px;
 {
 	display:flex;
 	flex-direction:row;
+	text-align:center;
 }
 
 .plat
 {
-	width:50%;
+	width:75%;
+	text-align:left;
+	margin-left:10%;
 }
 
 .prix

@@ -111,6 +111,34 @@ a
 {
 	margin-top:0;
 }
+
+#bouton_proch
+{
+	heigth:10%;
+	width:10%;
+	background-color:#43a047;
+	text-align:center;
+	margin-left:45%;
+	margin-bottom:5%;
+	border-radius:5%;
+	font-size:20px;
+}
+
+#b_proch
+{
+	color:#FFC107;
+}
+
+h1 .m_note
+{
+	margin-top:5%;
+}
+
+h2 .m_note
+{
+	margin-top:5%;
+}
+
 footer
 {
 	background-color:#43a047;
