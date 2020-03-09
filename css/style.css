@@ -1,3 +1,14 @@
+@font-face
+{
+	font-family:'police_note';
+    src:url('../polices/Selya.ttf');
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+
+
 body
 {
 	margin:0;
@@ -89,7 +100,8 @@ a
 
 #b_note
 {
-
+    font-family:'police_note';
+	font-size:25px;
 	background-color:#FFDDD2;
 }
 
