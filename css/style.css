@@ -6,7 +6,31 @@
 	font-style:normal;
 }
 
+@font-face
+{
+	font-family:'otfpoc';
+    src:url('../polices/otfpoc.otf');
+	font-weight:normal;
+	font-style:normal;
+}
 
+
+@font-face
+{
+	font-family:'sweethearts';
+    src:url('../polices/sweethearts.ttf');
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+@font-face
+{
+	font-family:'Saithik';
+    src:url('../polices/Saithik.ttf');
+	font-weight:normal;
+	font-style:normal;
+}
 
 
 body
@@ -108,15 +132,19 @@ a
 #b_chic
 {
 	background-color:#ffebee;
+	font-family:'otfpoc';
+	font-size:15px;
 }
 
 #b_papille
 {
+	font-family:'sweethearts';
 	background-color:#eeeeee;
 }
 
 #b_palette
 {
+	font-family:'Saithik';
 	background-color:#fafafa;
 }
 

@@ -1,3 +1,12 @@
+
+@font-face
+{
+	font-family:'sweethearts';
+    src:url('../polices/sweethearts.ttf');
+	font-weight:normal;
+	font-style:normal;
+}
+
 body
 {
 	margin:0;
@@ -23,17 +32,28 @@ h1
 
 h2
 {
+	font-family:'sweethearts';
 	font-weight: bold;
 	text-align:center;
 }
 
+h3
+{
+	font-family:'sweethearts';
+}
 
+h4
+{
+font-family:'Comic Sans MS';
+font-weight:normal;
+}
 
 h4::before
 {
 font-family:'Font Awesome 5 Pro';
 content:"\f7a4";
 margin-right:5%;
+font-weight:bold;
 }
 
 h4::after
@@ -41,6 +61,7 @@ h4::after
 	font-family:'Font Awesome 5 Pro';
 	content:"\f7a4";
 	margin-left:5%;
+	font-weight:bold;
 }
 
 a
@@ -82,6 +103,8 @@ font-family:'Font Awesome 5 Pro';
 	text-align:center;
 	margin-left:25%;
     margin-bottom:10px;
+	padding-top:15px;
+	padding-bottom:15px;
 }
 
 #ml
