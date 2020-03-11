@@ -128,11 +128,14 @@ a
 	font-size:25px;
 	background-color:#FFDDD2;
 	transform:scale(1);
+	transition-property:transform;
+	transition-duration:1000ms;
 }
 
 #b_note:hover
 {
 	transform:scale(1.15);
+	opacity:0.8;
 }
 
 
@@ -142,11 +145,14 @@ a
 	font-family:'otfpoc';
 	font-size:15px;
 	transform:scale(1);
+	transition-property:transform;
+	transition-duration:1000ms;
 }
 
 #b_chic:hover
 {
 transform:scale(1.15);	
+opacity:0.8;
 }
 
 #b_papille
@@ -154,11 +160,14 @@ transform:scale(1.15);
 	font-family:'sweethearts';
 	background-color:#eeeeee;
 	transform:scale(1);
+	transition-property:transform;
+	transition-duration:1000ms;
 }
 
 #b_papille:hover
 {
 	transform:scale(1.15);
+	opacity:0.8;
 }
 
 #b_palette
@@ -166,11 +175,14 @@ transform:scale(1.15);
 	font-family:'Saithik';
 	background-color:#fafafa;
 	transform:scale(1);
+	transition-property:transform;
+	transition-duration:1000ms;
 }
 
 #b_palette:hover
 {
 	transform:scale(1.15);
+	opacity:0.8;
 }
 
 #m_note
