@@ -127,25 +127,50 @@ a
     font-family:'police_note';
 	font-size:25px;
 	background-color:#FFDDD2;
+	transform:scale(1);
 }
+
+#b_note:hover
+{
+	transform:scale(1.15);
+}
+
 
 #b_chic
 {
 	background-color:#ffebee;
 	font-family:'otfpoc';
 	font-size:15px;
+	transform:scale(1);
+}
+
+#b_chic:hover
+{
+transform:scale(1.15);	
 }
 
 #b_papille
 {
 	font-family:'sweethearts';
 	background-color:#eeeeee;
+	transform:scale(1);
+}
+
+#b_papille:hover
+{
+	transform:scale(1.15);
 }
 
 #b_palette
 {
 	font-family:'Saithik';
 	background-color:#fafafa;
+	transform:scale(1);
+}
+
+#b_palette:hover
+{
+	transform:scale(1.15);
 }
 
 #m_note
