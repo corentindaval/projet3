@@ -222,7 +222,6 @@ footer
 	background-color:#43a047;
 	width:100%;
 	display:flex;
-	flex-direction:row;
 	justify-content:space-between;
 }
 
@@ -300,11 +299,12 @@ border-color:#e8eaf6;
 */
 #ml
 {
-	width:100%;
+	/*width:100%;*/
 	color:#FFC107;
 margin-bottom:20px;
 margin-top:20px;
 margin-left:10px;
+display:block;
 /*margin-right:39%;*/
 }
 
