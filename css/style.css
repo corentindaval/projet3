@@ -223,6 +223,7 @@ footer
 	width:100%;
 	display:flex;
 	flex-direction:row;
+	justify-content:space-between;
 }
 
 /*
@@ -299,20 +300,22 @@ border-color:#e8eaf6;
 */
 #ml
 {
+	width:100%;
 	color:#FFC107;
 margin-bottom:20px;
 margin-top:20px;
 margin-left:10px;
-margin-right:39%;
+/*margin-right:39%;*/
 }
 
 
 #cn
 {
+	width:100%;
 	color:#FFC107;
 margin-bottom:20px;
 margin-top:20px;
-margin-left:39%;
+/*margin-left:39%;*/
 margin-right:10px;
 }
 
