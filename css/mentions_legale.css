@@ -22,6 +22,10 @@ h1
 	padding-bottom:20px;
 }
 
+h2
+{
+	text-align:center;
+}
 
 a
 {
@@ -55,21 +59,26 @@ footer
 
 #ml
 {
+	width:100%;
 	color:#FFC107;
-margin-bottom:20px;
-margin-top:20px;
+/*margin-bottom:20px;*/
+margin-top:10px;
 margin-left:10px;
-margin-right:39%;
+display:block;
+text-align:left;
+/*margin-right:39%;*/
 }
 
 
 #cn
 {
+	width:100%;
 	color:#FFC107;
-margin-bottom:20px;
-margin-top:20px;
-margin-left:39%;
+/*margin-bottom:20px;*/
+margin-top:10px;
+/*margin-left:39%;*/
 margin-right:10px;
+text-align:right;
 }
 
 .ligne
