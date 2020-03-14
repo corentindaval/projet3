@@ -53,7 +53,7 @@ h4
 h4::before
 {
 font-family:'Font Awesome 5 Pro';
-content:"\f7a4";
+content:"\f337";
 margin-right:5%;
 font-weight:bold;
 }
@@ -61,7 +61,7 @@ font-weight:bold;
 h4::after
 {
 	font-family:'Font Awesome 5 Pro';
-	content:"\f7a4";
+	content:"\f337";
 	margin-left:5%;
 	font-weight:bold;
 }
