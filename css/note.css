@@ -12,8 +12,7 @@
 body
 {
 	margin:0;
-	font-family:"New Century",italic;
-	font-style: italic;
+	
 }
 
 header
@@ -24,7 +23,7 @@ header
 h1
 {
     color:#FFC107;
-	background-color:#43a047;
+	background-color:#599b87;
 	height:100%;
 	width:100%;
 	text-align:center;
@@ -32,6 +31,7 @@ h1
 	margin-bottom:0;
 	padding-top:20px;
 	padding-bottom:20px;
+	
 }
 
 a
@@ -50,10 +50,11 @@ i
 
 h2
 {
+	
 	font-weight: bold;
-	font-size:40px;
+	font-size:30px;
 	text-align:center;
-	font-family:'Selya';
+	
 }
 
 h3
@@ -99,11 +100,11 @@ h5::before
 
 footer
 {
-	background-color:#43a047;
+	background-color:#599b87;
 	width:100%;
 	display:flex;
 	flex-direction:row;
-}
+	}
 
 
 #recherche

@@ -46,7 +46,7 @@ header
 h1
 {
 	color:#FFC107;
-	background-color:#43a047;
+	background-color:#599b87;
 	height:100%;
 	width:100%;
 	text-align:center;
@@ -124,6 +124,7 @@ a
 
 #b_note
 {
+	text-align:center;
     font-family:'police_note';
 	font-size:25px;
 	background-color:#FFDDD2;
@@ -194,7 +195,7 @@ opacity:0.8;
 {
 	height:10%;
 	width:10%;
-	background-color:#43a047;
+	background-color:#599b87;
 	text-align:center;
 	margin-left:45%;
 	margin-bottom:5%;
@@ -219,7 +220,7 @@ h2 .m_note
 
 footer
 {
-	background-color:#43a047;
+	background-color:#599b87;
 	width:100%;
 	display:flex;
 	justify-content:space-between;
