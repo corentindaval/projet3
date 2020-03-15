@@ -238,7 +238,8 @@ footer
 	background-color:#43a047;
 	width:100%;
 	display:flex;
-	justify-content:space-between;
+	flex-direction:row;
+	/*justify-content:space-between;*/
 }
 
 /*
@@ -314,22 +315,39 @@ border-color:#e8eaf6;
 }
 */
 
+@keyframes headshake
+{
+25%{
+	transform:translateX(2.5%);
+}	
+75%{
+	transform:translateX(-2.5%);
+}
+}
+
+
 #ml
 {
-	/*width:100%;*/
+	width:100%;
 	color:#FFC107;
 /*margin-bottom:20px;
 margin-top:20px;*/
 margin-left:10px;
 display:block;
 text-align:left;
+transform:scale(1);
 /*margin-right:39%;*/
 }
 
+#ml:hover
+{
+	transform:scale(1);
+	animation:headshake 400ms backwards infinite;
+}
 
 #cn
 {
-	width:100%;
+	width:90%;
 	color:#FFC107;
 /*margin-bottom:20px;
 margin-top:20px;*/
@@ -337,6 +355,86 @@ margin-top:20px;*/
 margin-right:10px;
 text-align:right;
 }
+
+#bouton_proch
+{
+	width:15%;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	display:flex;
+	flex-direction:row;
+}
+
+.load
+{
+	width:5vh;
+	height:3vh;
+	display:flex;
+	justify-content:space-evenly;
+}
+.load_bar
+{
+	background-color:#15DEA5;
+		height:100%;
+		width:0.5vh;
+		animation: bars 1000ms backwards infinite;
+		animation-direction:alternate;
+		@for $i from 1 through 5{
+			&--#{$i}{
+				animation-delay:200ms*$i;
+			}
+		}
+}
+
+.load_bar2
+{
+	    background-color:#15DEA5;
+		height:100%;
+		width:0.5vh;
+		animation: bars 975ms backwards infinite;
+		animation-direction:alternate;
+}
+
+.load_bar3
+{
+	    background-color:#15DEA5;
+		height:100%;
+		width:0.5vh;
+		animation: bars 950ms backwards infinite;
+		animation-direction:alternate;
+}
+
+.load_bar4
+{
+	    background-color:#15DEA5;
+		height:100%;
+		width:0.5vh;
+		animation: bars 925ms backwards infinite;
+		animation-direction:alternate;
+}
+
+.load_bar5
+{
+	    background-color:#15DEA5;
+		height:100%;
+		width:0.5vh;
+		animation: bars 900ms backwards infinite;
+		animation-direction:alternate;
+}
+
+@keyframes bars{
+0%{
+	transform:scaleY(0.5);
+	
+   }
+100%{
+	transform:scaleY(1.0);
+}
+   
+}
+
+
 
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
