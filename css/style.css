@@ -209,13 +209,15 @@ opacity:0.8;
 #bouton_proch
 {
 	height:10%;
-	width:10%;
+	width:20%;
 	background-color:#43a047;
 	text-align:center;
 	margin-left:45%;
 	margin-bottom:5%;
 	border-radius:5%;
 	font-size:20px;
+	display:flex;
+	flex-direction:row;
 }
 
 #b_proch
@@ -356,15 +358,6 @@ margin-right:10px;
 text-align:right;
 }
 
-#bouton_proch
-{
-	width:15%;
-	padding-left:5px;
-	padding-right:5px;
-	padding-top:5px;
-	display:flex;
-	flex-direction:row;
-}
 
 .load
 {
@@ -439,6 +432,67 @@ text-align:right;
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
 {
+	
+section
+{
+display:flex;
+flex-direction:column;	
+}
+
+
+#b_note
+{
+	/*
+	margin-right:30px;
+	margin-bottom:30px;
+	*/
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#b_chic
+{
+	/*
+	margin-left:30px;
+	margin-bottom:30px;
+	*/
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#b_papille
+{
+	/*
+	margin-right:30px;
+	margin-top:30px;
+	*/
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+#b_palette
+{
+	/*
+	margin-left:30px;
+	margin-top:30px;
+	*/
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#bouton_proch
+{
+	height:10%;
+	width:40%;
+	margin:auto;
+	margin-bottom:10px;
+}
+
 
 
 	
