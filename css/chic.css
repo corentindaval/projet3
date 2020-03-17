@@ -196,3 +196,23 @@ text-align:right;
 {
 	width:25%;
 }
+
+@media all and (max-width: 768px) /*mise en place du responsive*/
+{
+
+
+#zone_menu
+{
+	height:50%;
+	width:70%;
+	margin:auto;
+	margin-bottom:10px;
+}
+
+
+#cn
+{
+	width:60%;
+}
+
+}
