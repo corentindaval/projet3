@@ -104,7 +104,7 @@ section
 article
 {
 	height:350px;
-	width:40%;
+	width:50%;
 	margin: auto;
 	margin-top:5%;
 	margin-bottom:5%;
@@ -117,7 +117,7 @@ article
 a
 {
 	height:100%;
-	width:100%;
+	width:95%;
 	text-decoration:none;
 	color:black;
 }
