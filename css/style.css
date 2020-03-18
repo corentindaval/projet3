@@ -103,7 +103,7 @@ section
 
 article
 {
-	height:350px;
+	height:380px;
 	width:50%;
 	margin: auto;
 	margin-top:5%;
@@ -125,7 +125,7 @@ a
 a:hover
 {
 	transform:scale(1.15);
-	opacity:0.8;
+	opacity:0.5;
 }
 
 #a_exept
@@ -175,7 +175,7 @@ opacity:0.8;
 #b_papille
 {
 	font-family:'sweethearts';
-	background-color:#eeeeee;
+	background-color:#f9f9f9;
 	transform:scale(1);
 	transition-property:transform;
 	transition-duration:1000ms;
@@ -193,7 +193,7 @@ opacity:0.8;
 #b_palette
 {
 	font-family:'Saithik';
-	background-color:#fafafa;
+	background-color:#fdfffd;
 	transform:scale(1);
 	transition-property:transform;
 	transition-duration:1000ms;
@@ -254,7 +254,7 @@ footer
 	width:100%;
 	display:flex;
 	flex-direction:row;
-	/*justify-content:space-between;*/
+	justify-content:space-between;
 }
 
 /*
@@ -372,7 +372,7 @@ transform:scale(1);
 
 #cn
 {
-	width:90%;
+	/*width:90%;*/
 	color:#FFC107;
 /*margin-bottom:20px;
 margin-top:20px;*/
