@@ -148,28 +148,64 @@ font-family:'Font Awesome 5 Pro';
 	padding-bottom:15px;
 	padding-top:15px;
 }
+
+@keyframes headshake
+{
+25%{
+	transform:translateX(0.5%);
+}	
+75%{
+	transform:translateX(-0.5%);
+}
+}
+
+
 #ml
 {
 	width:100%;
 	color:#FFC107;
 /*margin-bottom:20px;*/
-margin-top:10px;
+margin-top:15px;
 margin-left:10px;
 display:block;
 text-align:left;
+transform:scale(1);
 /*margin-right:39%;*/
 }
 
+#ml:hover
+{
+	transform:scale(1);
+	animation:headshake 500ms backwards infinite;
+}
+
+@keyframes headshake2
+{
+25%{
+	transform:translateX(0.5%);
+}	
+75%{
+	transform:translateX(-0.5%);
+}
+}
 
 #cn
 {
-	width:100%;
+	width:90%;
 	color:#FFC107;
-/*margin-bottom:20px;*/
-margin-top:10px;
+/*margin-bottom:20px;
+margin-top:20px;*/
 /*margin-left:39%;*/
-margin-right:10px;
+transform:scale(1);
+margin-right:20px;
 text-align:right;
+}
+
+
+#cn:hover
+{
+	transform:scale(1);
+	animation:headshake2 500ms backwards infinite;
 }
 
 .ligne
