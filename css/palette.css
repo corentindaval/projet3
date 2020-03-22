@@ -75,7 +75,7 @@ h4 > a:focus:before {
 h4::before
 {
 font-family:'Font Awesome 5 Pro';
-content:"\f337";
+content:url(../img/palette_gauche.jpg);
 margin-right:5%;
 font-weight:bold;
 }
@@ -83,7 +83,7 @@ font-weight:bold;
 h4::after
 {
 	font-family:'Font Awesome 5 Pro';
-	content:"\f337";
+	content:url(../img/palette_droit.jpg);
 	margin-left:5%;
 	font-weight:bold;
 }
