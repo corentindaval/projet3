@@ -127,6 +127,12 @@ a:hover
 	margin-left:30px;
 	margin-bottom:30px;
 }
+#t_chic{
+	color:purple;
+}
+#m_chic{
+	color:orange;
+}
 /*
 #b_chic:hover
 {
@@ -145,6 +151,9 @@ opacity:0.8;
 	margin-right:30px;
 	margin-top:30px;
 }
+#t_papille{
+	color:blue;
+}
 /*
 #b_papille:hover
 {
@@ -162,6 +171,9 @@ opacity:0.8;
 	transition-duration:1000ms;
 	margin-left:30px;
 	margin-top:30px;
+}
+#t_palette{
+	color:green;
 }
 /*
 #b_palette:hover
