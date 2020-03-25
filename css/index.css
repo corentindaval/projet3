@@ -48,7 +48,10 @@ i
 {
 	margin-left:45%;
 	margin-top:40%;
-	color:red;
+	background-image: linear-gradient(to right, red 0%, orange 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 	font-size:150%;
 }
 
@@ -128,7 +131,10 @@ a:hover
 	margin-bottom:30px;
 }
 #t_chic{
-	color:purple;
+	background-image: linear-gradient(to right, #B8741B 0%, #8786FF 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 #m_chic{
 	color:orange;
@@ -152,7 +158,10 @@ opacity:0.8;
 	margin-top:30px;
 }
 #t_papille{
-	color:blue;
+	background-image: linear-gradient(to right, #2D18BB 0%, #33B5FF 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 /*
 #b_papille:hover
@@ -173,7 +182,10 @@ opacity:0.8;
 	margin-top:30px;
 }
 #t_palette{
-	color:green;
+	background-image: linear-gradient(to right, #0FB846 0%, #E8FDD5 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 /*
 #b_palette:hover

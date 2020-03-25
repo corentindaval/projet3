@@ -21,7 +21,10 @@ h3
 {
 	font-family:'otfpoc';
 	font-size:30px;
-	color:purple;
+	background-image: linear-gradient(to right, #B8741B 0%, #8786FF 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 h4
 {
@@ -175,10 +178,31 @@ margin-right:20px;
 {
 
 h4:before{
-	content:none;
+		content:"";
+display:block;
+height:10px;
+width:80px;
+	background-image:url(../img/chic_gauche.jpg);
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	position:relative;
+	left:0px;
+	top:10px;
+	margin:0;
 }
 h4:after{
-	content:none;
+	content:"";
+display:block;
+height:10px;
+width:80px;
+	background-image:url(../img/chic_droit.jpg);
+	background-repeat:no-repeat;
+		background-attachment:scroll;
+	position:relative;
+	right:0;
+	bottom:15px;
+	left:78%;
+	margin:0;
 }
 
 

@@ -23,7 +23,10 @@ i
 	margin-top:10px;
 	margin-bottom:0;
 	font-size:50px;
-	color:red;
+	background-image: linear-gradient(to right, red 0%, orange 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 	/*background:linear-gradient(to right, red, orange);*/
 }
 
@@ -115,7 +118,10 @@ h5::before
 		content: "\f001";
 		font-weight: 900;
 		margin-right:10px;
-		color:red;
+		background-image: linear-gradient(to right, red 0%, orange 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 #zone_menu
@@ -165,12 +171,38 @@ h5::before
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
 {
+h4{
+
+}
 h4:before{
-	content:none;
+	content:"";
+display:block;
+height:10px;
+width:80px;
+	background-image:url(../img/note_gauche.jpg);
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	position:relative;
+	left:0px;
+	top:10px;
+	margin:0;
 }
 h4:after{
-	content:none;
+	content:"";
+display:block;
+height:10px;
+width:80px;
+	background-image:url(../img/note_droit.jpg);
+	background-repeat:no-repeat;
+		background-attachment:scroll;
+	position:relative;
+	right:0;
+	bottom:15px;
+	left:70%;
+	margin:0;
 }
+
+
 
 #zone_menu
 {

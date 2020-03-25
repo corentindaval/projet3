@@ -11,7 +11,8 @@ header
 h1
 {
 	color:#FFC107;
-	background-color:#43a047;
+	/*background-color:#43a047;*/
+    background-color:#599b87;
 	height:100%;
 	width:100%;
 	text-align:center;
@@ -38,7 +39,8 @@ font-family:'Font Awesome 5 Pro';
 
 footer
 {
-	background-color:#43a047;
+	/*background-color:#43a047;*/
+	background-color:#599b87;
 	width:100%;
 	display:flex;
 	flex-direction:row;
