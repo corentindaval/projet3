@@ -9,6 +9,7 @@
 }
 
 
+
 body
 {
 	margin:0;
@@ -102,7 +103,7 @@ a
 #zone_menu
 {
 	height:50%;
-	width:50%;
+	width:59%;
 	background-color:#fafafa;
 	text-align:center;
 	margin-left:25%;
