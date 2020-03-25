@@ -178,5 +178,5 @@ text-align:right;
 #cn:hover
 {
 	transform:scale(1);
-	animation:headshake2 500ms backwards infinite;
+	animation:headshake 400ms backwards infinite;
 }

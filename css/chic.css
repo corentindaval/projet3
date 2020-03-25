@@ -74,11 +74,17 @@ h4 > a:before {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: cyan;
+  background: orange;
   visibility: hidden;
   border-radius: 5px;
   transform: scaleX(0);
   transition: .25s linear;
+}
+h4 >.t2:before{
+	background:purple;
+}
+h4 >.t3:before{
+	background:blue;
 }
 h4 > a:hover:before,
 h4 > a:focus:before {
@@ -178,22 +184,22 @@ margin-right:20px;
 {
 
 h4:before{
-		content:"";
-display:block;
+		content:none;
+/*display:block;
 height:10px;
-width:80px;
+width:40px;
 	background-image:url(../img/chic_gauche.jpg);
 	background-repeat:no-repeat;
 	position:relative;
 	left:0px;
 	top:10px;
-	margin:0;
+	margin:0;*/
 }
 h4:after{
-	content:"";
-display:block;
+	content:none;
+/*display:block;
 height:10px;
-width:80px;
+width:40px;
 	background-image:url(../img/chic_droit.jpg);
 	background-repeat:no-repeat;
 
@@ -201,7 +207,7 @@ width:80px;
 	right:0;
 	bottom:15px;
 	left:78%;
-	margin:0;
+	margin:0;*/
 }
 
 
