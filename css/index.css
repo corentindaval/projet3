@@ -305,7 +305,7 @@ h2 .m_note
    
 }
 */
-
+/*
 @keyframes anim_point{
 0%{
 	transform:scaleY(0.5);
@@ -369,7 +369,51 @@ h2 .m_note
 		animation: anim_point 800ms backwards infinite;
 		animation-direction:alternate;
 }
+*/
+@keyframes anim_point{
+0%{
+	opacity:0;
+	
+   }
+100%{
+	opacity:1;
+}
+   
+}
 
+
+.load
+{
+	width:5vh;
+	height:3vh;
+	display:flex;
+	justify-content:space-evenly;
+	margin:0;
+}
+
+
+.point1
+{
+	    height:100%;
+		width:0.5vh;
+		animation: anim_point 900ms backwards infinite;
+}
+
+.point2
+{
+	
+	    height:100%;
+		width:0.5vh;
+		animation: anim_point 875ms backwards infinite;
+}
+
+.point3
+{
+	
+	    height:100%;
+		width:0.5vh;
+		animation: anim_point 850ms backwards infinite;
+}
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
 {

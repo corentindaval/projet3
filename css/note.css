@@ -96,13 +96,14 @@ h4 > a:focus:before {
 
 h4::before
 {
-content:url(../img/note_gauche.jpg);
+content:url(../img/note-gauche.png);
+font-weight:bold;
 margin-right:5%;
 }
 
 h4::after
 {
-	content:url(../img/note_droit.jpg);
+	content:url(../img/note-droit.png);
 	margin-left:5%;
 }
 
