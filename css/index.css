@@ -418,7 +418,7 @@ h2 .m_note
 @media all and (max-width: 768px) /*mise en place du responsive*/
 {
 	
-section
+main
 {
 display:flex;
 flex-direction:column;	

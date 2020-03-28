@@ -100,7 +100,12 @@ content:url(../img/chic-gauche.png);
 margin-right:5%;
 font-weight:bold;
 }
-
+h4 >.t2:before{
+	
+}
+h4 >.t3:before{
+	background:blue;
+}
 h4::after
 {
 	font-family:'Font Awesome 5 Pro';
