@@ -209,7 +209,7 @@ opacity:0.8;
 	margin-bottom:5%;*/
 	margin:auto;
 	margin-bottom:10px;
-	padding-right:5px;
+	padding-right:0px;
 	padding-top:2px;
 	padding-bottom:2px;
 	border-radius:5%;
@@ -220,7 +220,7 @@ opacity:0.8;
 
 #b_proch
 {
-	width:100%;
+	width:80%;
 	color:#FFC107;
 	margin:0;
 }
@@ -384,8 +384,8 @@ h2 .m_note
 
 .load
 {
-	width:5vh;
-	height:3vh;
+	width:3vh;
+	height:3px;
 	display:flex;
 	justify-content:space-evenly;
 	margin:0;
@@ -396,7 +396,7 @@ h2 .m_note
 {
 	    height:100%;
 		width:0.5vh;
-		animation: anim_point 900ms backwards infinite;
+		animation: anim_point 1500ms backwards infinite;
 }
 
 .point2
@@ -404,7 +404,7 @@ h2 .m_note
 	
 	    height:100%;
 		width:0.5vh;
-		animation: anim_point 875ms backwards infinite;
+		animation: anim_point 1250ms backwards infinite;
 }
 
 .point3
@@ -412,7 +412,7 @@ h2 .m_note
 	
 	    height:100%;
 		width:0.5vh;
-		animation: anim_point 850ms backwards infinite;
+		animation: anim_point 1000ms backwards infinite;
 }
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
@@ -482,6 +482,10 @@ flex-direction:column;
 	margin-bottom:10px;
 }
 
+#b_proch
+{
+	width:80%;
+}
 #cn
 {
 	width:70%;
