@@ -95,24 +95,47 @@ h4 > a:focus:before {
 
 h4::before
 {
-font-family:'Font Awesome 5 Pro';
 content:url(../img/chic-gauche.png);
 margin-right:5%;
 font-weight:bold;
 }
-h4 >.t2:before{
-	
+
+#st2::before
+{
+content:url(../img/chic2-gauche.png);
+margin-right:5%;
+font-weight:bold;
 }
-h4 >.t3:before{
-	background:blue;
+
+#st3::before
+{
+	content:url(../img/chic3-gauche.png);
+margin-right:5%;
+font-weight:bold;
 }
+
 h4::after
 {
-	font-family:'Font Awesome 5 Pro';
 	content:url(../img/chic-droit.png);
 	margin-left:5%;
 	font-weight:bold;
 }
+
+#st2::after
+{
+content:url(../img/chic2-droit.png);
+margin-right:5%;
+font-weight:bold;
+}
+
+#st3::after
+{
+	content:url(../img/chic3-droit.png);
+margin-right:5%;
+font-weight:bold;
+}
+
+
 
 a
 {
