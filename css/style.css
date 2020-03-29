@@ -151,7 +151,7 @@ transform:scale(1);
 	transform:scale(1);
 	animation:headshake 400ms backwards infinite;
 }
-
+/*
 @keyframes headshake2
 {
 25%{
@@ -161,7 +161,7 @@ transform:scale(1);
 	transform:translateX(-0.5%);
 }
 }
-
+*/
 #cn
 {
 	/*width:90%;*/
@@ -173,7 +173,6 @@ transform:scale(1);
 margin-right:20px;
 text-align:right;
 }
-
 
 #cn:hover
 {
