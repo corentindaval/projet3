@@ -155,27 +155,6 @@ a
 	padding-bottom:15px;
 }
 
-
-
-#ml
-{
-	width:100%;
-/*margin-bottom:20px;*/
-margin-top:15px;
-margin-left:10px;
-/*margin-right:39%;*/
-}
-
-#cn
-{
-	width:90%;
-/*margin-bottom:20px;
-margin-top:20px;*/
-/*margin-left:39%;*/
-margin-right:20px;
-
-}
-
 .ligne
 {
 	display:flex;

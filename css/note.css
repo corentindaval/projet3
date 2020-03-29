@@ -172,9 +172,6 @@ h5::before
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
 {
-h4{
-
-}
 h4:before{
 	content:none;
 }
