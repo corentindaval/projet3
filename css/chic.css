@@ -216,8 +216,24 @@ width:40px;
 	left:78%;
 	margin:0;*/
 }
+#st2:before
+{
+	content:none;	
+}
 
+#st2:after
+{
+	content:none;
+}
 
+#st3:before
+{
+	content:none;
+}
+#st3:after
+{
+	content:none;
+}
 
 #zone_menu
 {
