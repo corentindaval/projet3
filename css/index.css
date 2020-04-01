@@ -372,7 +372,7 @@ h2 .m_note
 	opacity:0;
 	
    }
-100%{
+50%{
 	opacity:1;
 }
    
@@ -393,7 +393,7 @@ h2 .m_note
 {
 	    height:100%;
 		width:0.5vh;
-		animation: anim_point 1500ms backwards infinite;
+		animation: anim_point 1000ms backwards infinite;
 }
 
 .point2
@@ -409,7 +409,7 @@ h2 .m_note
 	
 	    height:100%;
 		width:0.5vh;
-		animation: anim_point 1000ms backwards infinite;
+		animation: anim_point 1500ms backwards infinite;
 }
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
