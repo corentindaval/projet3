@@ -36,7 +36,7 @@
 h2
 {
 	text-align:center;
-	margin-top:45%;
+	/*margin-top:45%;*/
 }
 
 h3
@@ -46,8 +46,8 @@ h3
 
 i
 {
-	margin-left:45%;
-	margin-top:40%;
+	/*margin-left:45%;
+	margin-top:40%;*/
 	background-image: linear-gradient(to right, red 0%, orange 100%);
   color: transparent;
   -webkit-background-clip: text;
@@ -68,20 +68,18 @@ main
 
 article
 {
-	height:400px;
+	height:500px;
 	width:50%;
-	margin: auto;
-	margin-top:5%;
-	margin-bottom:5%;
 	border:1px solid ;
 	border-color:#e8eaf6;
 	display:flex;
-	flex-direction:column;
+	align-items:center;
+	margin:0 auto;
+	/*flex-direction:column;*/
 }
 
 a
 {
-	height:100%;
 	width:95%;
 	text-decoration:none;
 	color:black;
@@ -109,6 +107,11 @@ a:hover
 	transition-duration:1000ms;
 	margin-right:30px;
 	margin-bottom:30px;
+	text-align:center;
+}
+#m_note
+{
+	margin-top:0;
 }
 /*
 #b_note:hover
@@ -190,10 +193,7 @@ opacity:0.8;
 	opacity:0.8;
 }
 */
-#m_note
-{
-	margin-top:0;
-}
+
 
 #bouton_proch
 {
@@ -204,7 +204,8 @@ opacity:0.8;
 	/*margin-left:45%;
 	margin-bottom:5%;*/
 	margin:auto;
-	margin-bottom:10px;
+	margin-bottom:30px;
+	margin-top:30px;
 	padding-right:0;
 	padding-top:2px;
 	padding-bottom:2px;
@@ -367,6 +368,7 @@ h2 .m_note
 		animation-direction:alternate;
 }
 */
+/*
 @keyframes anim_point{
 0%{
 	opacity:0;
@@ -410,6 +412,43 @@ h2 .m_note
 	    height:100%;
 		width:0.5vh;
 		animation: anim_point 1500ms backwards infinite;
+}
+*/
+.loading
+{
+margin-bottom:5px;	
+}
+.loading span
+{
+	width:2.5px;
+	height:2.5px;
+	margin:0.5px;
+	background-color:black;
+	border-radius:50%;
+	display:inline-block;
+	animation-name:dots;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+}
+
+.loading span:nth-child(2)
+{
+	background-color:black;
+	animation-delay:0.4s;
+}
+
+.loading span:nth-child(3)
+{
+	background-color:black;
+	animation-delay:0.8s;
+}
+
+@keyframes dots{
+	50%{
+		opacity:0;
+		transform:scale(0.7) translateY(2.5px);
+	}
 }
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
