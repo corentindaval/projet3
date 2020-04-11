@@ -100,3 +100,10 @@ text-align:right;
 	transform:scale(1);
 	animation:headshake 400ms backwards infinite;
 }
+@media all and (max-width: 768px) /*mise en place du responsive*/
+{
+	#search
+	{
+		border:solid 1px;
+	}
+}
