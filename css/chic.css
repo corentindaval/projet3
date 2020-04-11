@@ -191,29 +191,9 @@ a
 
 h4:before{
 		content:none;
-/*display:block;
-height:10px;
-width:40px;
-	background-image:url(../img/chic_gauche.jpg);
-	background-repeat:no-repeat;
-	position:relative;
-	left:0px;
-	top:10px;
-	margin:0;*/
 }
 h4:after{
 	content:none;
-/*display:block;
-height:10px;
-width:40px;
-	background-image:url(../img/chic_droit.jpg);
-	background-repeat:no-repeat;
-
-	position:relative;
-	right:0;
-	bottom:15px;
-	left:78%;
-	margin:0;*/
 }
 #st2:before
 {
